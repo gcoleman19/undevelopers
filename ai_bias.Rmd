@@ -1,0 +1,34 @@
+# Intro
+AI has increasingly become a topic of conversation, as it is a new technology with infinite possibilities. Since AI takes information from all over the internet, it is important to think about the biases that can be found within the system. For this project, we are thinking about bias as… Through research, we hope to create a comprehensive understanding of bias within the AI space and how best to mitigate it as a user.
+
+In addition, the development of AI is also inseparable from Agile thinking. For example, we need to use Agile to continuously judge customer needs, just like the training mechanism of AI timely feedback. Agile methods emphasize rapid iteration during product development and gathering user feedback early on. This rapid iteration can make the team more acutely aware of potential ethical issues and make adjustments at an early stage. In the development and application of AI, especially in areas involving sensitive data or potential moral hazards, rapid iteration helps to detect and resolve possible ethical issues as early as possible. In a sense, AI and agility help each other. But the agile method itself does not ensure the ethics of AI, it is only a management and development method
+
+#About Us
+Grace: I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYoureReadingThis. My interests include sports, fashion, and needlepoint.
+
+##Vivi:  
+My experience in crisis intervention and corporate cannabis drives my dedication to understanding social equity in business. As a MBAn student at UM Ross, I'm excited to intersect my passion for data analytics with my industry insights for tangible change.
+Off-duty, you can find me perfecting my Masterchef audition dish or knitting for my 4 pets - two dogs and two cats. They are my cheering squad as I cook and knit my way through grad school!
+
+##Yibo:
+I am an accomplished international student from China who graduated in 2020 from the University of Connecticut, holding a dual major in Digital Marketing and Economics. Currently, I am pursuing my graduate studies in the Business Analysis Program at Umich Ross Business School.
+
+
+##Xinyan: 
+I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
+
+##Drew: 
+I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
+
+##As a Team: 
+
+#Table of Contents
+##Overview of AI biases: its origin/why it’s an issue
+##Overview of AI and LLM: how they work, how they are trained (sources) (Moritz & The Medium, 2014)
+##Case Studies: Vivi Nguyen-Santamaria
+###Discrimination and unfair treatment in critical areas like hiring, lending, criminal justice, etc. (Buolamwini & Gebru, 2018),(Barocas & Selbst, 2016)
+###Inherent biases - (Kleinberg et al., 2019)
+##Mitigating Biases in AI systems: Grace Coleman
+###As companies: IBM's Fairness 360 toolkit, Google's Responsible AI Practices, OpenAI's research, etc.
+##As individual: Responsible Prompting/building as a Mitigation Technique: ##what “Learn Prompting” is and how it can be used effectively
+##Resources for Further Learning
