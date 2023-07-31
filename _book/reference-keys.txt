@@ -20,3 +20,7 @@ publishing
 pages
 metadata-for-sharing
 url-your-book-url-like-httpsbookdown.orgyihuibookdown
+intro
+about-us
+intro-1
+about-us-1
