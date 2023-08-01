@@ -1,35 +1,27 @@
-# Intro
-
-AI has increasingly become a topic of conversation, as it is a new technology with infinite possibilities. Since AI takes information from all over the internet, it is important to think about the biases that can be found within the system. For this project, we start by differentiating the difference between inaccuracy and biases. Specifically, we discuss AI/ML bias through the lens of machine model training biases - both unintentional and unintentional biases - also called inherent biases, as well as data collection biases, and the impact of these biases in the real world.
-
-Through research, we hope to create a comprehensive understanding of bias within the AI space and how best to mitigate it as a user.
-
-The project intends to create awareness about AI bias and help our Ross peers navigate the complex but crucial ethical aspect of AI. At the same time, a significant portion of the guide is dedicated to 'responsible prompting', a practical guideline on crafting prompts mindfully and vigilantly spotting bias in AI responses. The goal of our project is to make AI interactions more fair, ethical, and responsible by empowering users to recognize and navigate AI biases.
-
-In addition, the development of AI is also inseparable from Agile thinking. For example, we need to use Agile to continuously judge customer needs, just like the training mechanism of AI timely feedback. Agile methods emphasize rapid iteration during product development and gathering user feedback early on. This rapid iteration can make the team more acutely aware of potential ethical issues and make adjustments at an early stage. In the development and application of AI, especially in areas involving sensitive data or potential moral hazards, rapid iteration helps to detect and resolve possible ethical issues as early as possible. In a sense, AI and agility help each other. But the agile method itself does not ensure the ethics of AI, it is only a management and development method.
 
 
-## About Us
+# About Us
 
 Introducing our exceptional team, a diverse and talented group of individuals, each with their own unique strengths and passions:
 
-Grace: I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
+## Grace {-}
+I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
 
-Vivi:  
+## Vivi {-}
 Experienced in crisis intervention and corporate cannabis. Combines passion for data analytics with industry insights as an MBAn student at UM Ross. Enjoys cooking and knitting for their 4 pets – two dogs and two cats.
 
-Yibo:
+## Yibo {-}
 Hi, I am Yibo
 I am an accomplished international student from China who graduated in 2020 from the University of Connecticut, holding a dual major in Digital Marketing and Economics. Currently, I am pursuing my graduate studies in the Business Analysis Program at Umich Ross Business School.
 
 
-Xinyan: I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
+## Xinyan {-}
+I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
 
-Drew: Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
+## Drew {-}
+Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
 
-As a Team: Formed as a team for the class, MBAN 501: Software Teams and Project Management, we found ourselves sharing the same interest in the human processes that live behind the standard deliverables and tools used in business.
+## As a Team {-}
+Formed as a team for the class, MBAN 501: Software Teams and Project Management, we found ourselves sharing the same interest in the human processes that live behind the standard deliverables and tools used in business.
 
 
-### An unnumbered section {-}
-
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
