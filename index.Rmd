@@ -1,0 +1,25 @@
+--- 
+title: "Responsible AI Interaction: A Guide to Navigating Bias in AI Systems"
+author: "Xinyan, Grace, Vivi, Drew, Yibo"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Introduction
+
+Artificial Intelligence (AI) is an emerging technology with limitless potential that operates on a wide array of online data. This project will focus on understanding biases within AI, specifically differentiating between inaccuracies and inherent or unintentional biases. These biases have real-world implications that we aim to address.
+
+Our dual-purpose project aims to increase AI bias awareness and promote 'responsible prompting', a strategy for mindful prompt creation and bias detection. By doing this, we hope to make AI interactions more ethical, fair, and responsible.
+
+The link between AI development and Agile thinking, a methodology emphasizing quick iterations and early user feedback, cannot be ignored. While the concept of an agile business model doesn't directly ensure AI ethics, it enables prompt detection and rectification of ethical issues, making it an important consideration in AI application and development.
+
