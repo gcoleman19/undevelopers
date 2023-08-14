@@ -1,15 +1,15 @@
-# Overview of AI Biases
+# Overview of AI Biases 
 
 Insert intro here
 
-## Types of Biases
+## Types of Biases {-}
 
 Insert types
 
-## Source of Biases
+## Source of Biases {-}
 
 Insert sources
 
-## Examples
+## Examples {-}
 
 Insert examples

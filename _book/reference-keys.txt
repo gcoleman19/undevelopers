@@ -9,7 +9,6 @@ yibo
 xinyan
 drew
 as-a-team
-introduction
 introduction-1
 =======
 overview-of-ai-biases
@@ -33,3 +32,4 @@ individuals
 resources-for-further-learning
 ongoing-research
 >>>>>>> 9678eaf866cb98a6dabba618a76b89d58ed05f65
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
