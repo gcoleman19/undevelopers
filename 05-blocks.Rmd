@@ -1,1 +1,107 @@
 # Mitigating Biases in AI systems
+
+## As companies: IBM's Fairness 360 toolkit, Google's Responsible AI Practices, OpenAI's research, etc. (IBM, 2018)
+
+##IBM
+The AI Fairness 360 (AIF360) toolkit provided by IBM aims to promot a deeper understanding of fairness metrics and mitigation techniques, to enable an open common platform for fairness researchers and industry practitioners to share and benchmark their algorithms, and to help facilitate the transition of fairness research algorithms to use in an industrial setting. 
+
+AIF360 uses techniques from 8 published papers on the border algorithm fairness community. It includes over 71 bias detection metrics, 9 bias mitigation algorithms, and a unique extensible metric explanation facility to help consumers of the system to understand the meaning of bias detection results
+
+**Definitions Used in AIF360**
+1. Fairness measures → provide several fairness metrics including difference of means, disparate impact, and odds ratio
+
+2. FairML → Provides an auditing tool for predictive models by quantifying the relative effects of various inputs on a model’s predictions
+
+3. FairTest → Checks for associations between predicted labels and protected attributes. Provides user with ability to identify regions of the input space where ana glorithm might incur unusually high errors
+
+4. Aequitas → Auditing toolkit for data scientists and policy makers. It has a Python library as well as an associated website where data can be uploaded for bias analysis
+
+5. Themis-ML → Repository that provides a few fairness metrics, such as mean difference, and some bias mitigation algorithms, such as relabeling, additive counterfactually fair estimator, and reject option classification.
+Paradigm and Architecture
+
+**Paradigm and Architecture**
+Fairness pipeline that shows data loading into a dataset object, transforming it into a fairer dataset using a fair pre-processing algorithm, learning a classifier from this transformed dataset, and obtaining predictions from the classifier.
+
+**Dataset Classes**
+- Training data is used to learn classifiers
+- Testing data is used to make predictions and compare metrics
+- Besides these standard aspects of the machine learning pipeline, fairness applications also require associating protected attributes with each instance or record in the data
+
+**Bias Mitigation**
+AIF360 attempts to improve the fairness metrics by modifying the training data, the learning algorithm, or the predictions - also known as pre-processing, in-processing, and post-processing respectively
+
+**Maintaining Code Quality**
+1. Establishing and maintaining high-quality code is crucial for an evolving open-source system.
+2. The AIF360 Github repository is directly integrated with Travis CI, a continuous testing and integration framework, which invoked “pytest” to run unit tests.
+- Unit test cases ensure that classes and functions defined in the different libraries are functionally correct and do not break the fairness detection and mitigation pipeline flow.
+3. The toolkit is enforced in both front-end and back-end services
+
+##Google Responsible AI Practices
+**Fairness**
+AI systems influence goes beyond mere recommendations, encompassing critical functions such as decision-making in business. These automated systems possess the potential to enhance fairness and inclusivity on a larger level compared to human-centric judgments. It is vital to recognize that unfairness within AI systems can have far-reaching consequences, inherently showing the importance of fairness.
+
+However, achieving fairness in AI is not without its challenges. Machine learning models are trained on real-world data, which inherently carries biases. Constructing universally fair systems is complicated due to the myriad of diverse situations they encounter. Additionally, fairness lacks a standardized definition and involves a multitude of considerations that must be addressed.
+
+Efforts to ensure fairness in AI necessitate ongoing research and dedication. This involves fostering diversity within the workforce and knowledge base, meticulous scrutiny of training data for biases, training models to rectify these biases, evaluating models for any performance disparities, and subjecting final systems to rigorous fairness testing.
+
+Furthermore, AI has the capacity to identify human biases and barriers, which can contribute to fostering positive societal changes. The pursuit of fairness in AI remains a dual-edged prospect—an opportunity for progress and a complex challenge to conquer. Companies like Google are committed to advancing fairness, offering tools and resources to the broader community to contribute to this ongoing endeavor.
+
+**Interpretability**
+Automated predictions and decision-making play a pivotal role in enhancing various parts of life. In this context, the concept of interpretability assumes a crucial role, serving as an anchor for questioning, comprehending, and instilling trust in AI systems. By providing interpretability, AI systems contribute to the alignment of domain expertise, societal principles, and the development of models. Interestingly, the challenges surrounding explaining decisions are shared by both AI and human decision-making processes. Unlike humans, AI systems have the capacity to furnish in-depth insights into the rationale behind their predictions, an attribute that sets them apart. However, comprehending intricate AI models, including neural networks, remains a formidable task, even for seasoned experts.
+
+The evaluation of AI systems introduces unique challenges that distinguish them from conventional software. While traditional software follows explicit if-then rules, AI operates through intricate parameter pathways. The tenets of responsible AI design allow for the tracing of values back to training data, facilitating the detection of bugs and anomalies. The comprehension of AI hinges upon its training data, the underlying process, and the resultant model. Collective endeavors within the technology community are actively contributing to the enhancement of understanding, control, and debugging of AI systems.
+
+In this context, Google emerges as a prominent participant, engaging in ongoing research and development endeavors aimed at refining the interpretability of AI.
+
+**Privacy**
+Machine learning models derive insights from training and input data, raising privacy concerns when handling sensitive information. Achieving a balance between the advantages of using sensitive data and the associated privacy implications is crucial. This encompasses legal, regulatory, social, and individual factors. Implementing safeguards is essential to preserve individual privacy while employing ML models, which necessitates transparent practices and user data control. Techniques can mitigate the likelihood of models exposing underlying data. Google is at the forefront of developing strategies to safeguard privacy within AI systems, contributing to an evolving field of research with substantial growth potential. Their willingness to share insights further enhances the collective understanding of privacy protection in the AI domain.
+
+**Safety**
+Ensuring AI systems align with intentions and remain resilient against attacks is integral to safety and security. This holds particular importance in safety-critical applications, necessitating robust safety measures prior to deployment. Addressing safety challenges becomes intricate in scenarios characterized by unpredictability and generative AI. This complexity is magnified in intricate problems and generative AI. Striking a balance between proactive safety precautions and accommodating creative adaptability presents a formidable task. The evolution of AI introduces novel attack vectors, prompting an ongoing pursuit of effective solutions. Drawing from accumulated insights, it's advisable to prioritize safety during pre-deployment planning for critical applications, anticipate diverse scenarios—particularly in generative AI settings—maintain equilibrium between safety protocols and creative latitude, and remain flexible in countering emerging attack strategies through adaptive countermeasures.
+
+**Recommended Practices**
+Research in machine learning safety encompasses various threats including data poisoning, data recovery, model theft, and adversarial examples. Google plays an active role in investigating these domains, some of which intersect with AI and privacy concerns. A specific emphasis lies on adversarial learning, where one network crafts deceptive instances and another discerns fraudulent behavior. Though ongoing, the establishment of dependable defenses against adversarial examples remains in progress. Developers are advised to assess potential attacks and their ramifications, steering clear of vulnerable system designs. Adversarial testing systematically scrutinizes ML models using malicious input to bolster comprehension and mitigation efforts. This process aids in recognizing patterns of failure and guides enhancements through fine-tuning and protective measures.
+
+##OpenAI
+**How ChatGPT's Behavior is Shaped**
+ChatGPT's model is a massive neural network, unlike ordinary software. The behavior of the model is learned from diverse data, not explicitly programmed. The process is similar to training a dog, as oposed to traditional programming. There are two phases of training the model, the first of which is the "pre-training" phase. This phase consists of teaching the model to predict the next words from Internet text. Second is the "fine-tuning" phase which fine-tunes the system's behavior. The model is also constantly improving its alighment with human values. Here is a more in-depth explanation of these training phases and processes:
+
+1. Pre-Training: Predicting the next words from the Internet dataset
+i. Learn grammar, facts, reasoning abilities
+ii. Absorb biases from the data
+
+2. Fine-Tuning: Narrow dataset with human reviewers
+i. Reviewers follow guidelines
+ii. Not all possible inputs covered
+iii. Categories in guidelines for model responses
+iv. Models generalize from reviewer feedback
+
+3. Reviewers and OpenAI policies in system development:
+OpenAI maintains a close relationship with its reviewers and adheres to its established policies. This includes providing clear instructions on the types of outputs expected from the model. OpenAI offers high-level guidance, particularly with regards to handling controversial topics. Collaboration with reviewers is a continuous effort, involving weekly meetings to exchange feedback and seek clarifications. The development process follows an iterative approach, enabling consistent refinement of the model for improvement over time.
+
+**Role of Reviewers and OpenAI’s Policies in System Development**
+
+1. Reviewer Guidance:
+i. Specific output cases (e.g., no illegal content)
+ii. High-level guidance (e.g., avoid controversial stances)
+iii. Ongoing collaboration, not one-time
+iv. Learning from reviewer expertise
+
+2. Feedback Loop and Fine-Tuning
+i. Strong feedback loop with reviewers
+ii. Weekly meetings to address questions
+iii. Clarify guidance as needed
+iv. Iterative process for continuous improvement
+
+**Addressing Bias**
+1. Addressing Biases and Transparency:
+OpenAI acknoledges the concerns about AI biases, and is commited to addressing them. OpenAI sees bias as bugs, as opposed to features of the model. In order to tackle the issue, they strive to be transparent in their intentions and progress in building the model. In addition, there is no favoring of any political groups by reviewers.
+
+2. Sharing Insights and Accountability:
+OpenAI shares their guidelines for user insight, and to stay accountable for uphering sound policies.
+
+3. Continuous Improvement:
+In order to improve the model, OpenAI is constantly enhancing their guidelines for clarity, making clearer instructions for reviewers, addressing bias, controversial figures, and themes. Additionaly, they are transparent in the demographic information of their reviewers, continuously research understandable and controllable fine-tuning, and build on external advances like rule-based rewards and Constitutional AI
+
+**The Building Blocks of Future Systems**
+The overarching mission centers on ensuring widespread access, benefits, and impact of AI and AGI. To achieve this, three fundamental building blocks are in place. The first focuses on enhancing the default behavior of AI, aiming for usefulness and respectfulness right from the start. This involves comprehensive research and engineering to mitigate biases, rectify over-refusals and under-refusals, and leverage user feedback to drive improvements. The second block revolves around defining AI's values within appropriate boundaries, facilitating customizable AI systems that align with societal limits. This entails refining ChatGPT for user-driven behavior customization while striking a balance between customization potential and guarding against misuse risks. The goal is to set well-defined boundaries for AI behavior to prevent the concentration of power. The third block emphasizes public involvement in shaping defaults and boundaries to prevent undue centralization of influence. Through collective decision-making, public participation is sought in determining system defaults and behavior boundaries, with external input garnered through red teaming. This extends to soliciting public insights on AI in education and piloting initiatives for public contributions on behavior, disclosure, and policies. Furthermore, the exploration of third-party safety and policy audits underscores a commitment to transparency and accountability.
