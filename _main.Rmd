@@ -1,3 +1,85 @@
+--- 
+title: "Bias within the AI Environment"
+author: "Drew, Grace, Vivi, Xinyan, Yibo"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    number_sections: true
+    toc: true
+    toc_depth: 2
+    theme: readable
+    
+site: bookdown::bookdown_site
+documentclass: book
+Intro: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Introduction
+
+AI has increasingly become a topic of conversation, as it is a new technology with infinite possibilities. Since AI takes information from all over the internet, it is important to think about the biases that can be found within the system. For this project, we start by differentiating the difference between inaccuracy and biases. Specifically, we discuss AI/ML bias through the lens of machine model training biases - both unintentional and unintentional biases - also called inherent biases, as well as data collection biases, and the impact of these biases in the real world.
+
+Through research, we hope to create a comprehensive understanding of bias within the AI space and how best to mitigate it as a user.
+
+The project intends to create awareness about AI bias and help our Ross peers navigate the complex but crucial ethical aspect of AI. At the same time, a significant portion of the guide is dedicated to 'responsible prompting', a practical guideline on crafting prompts mindfully and vigilantly spotting bias in AI responses. The goal of our project is to make AI interactions more fair, ethical, and responsible by empowering users to recognize and navigate AI biases.
+
+In addition, the development of AI is also inseparable from Agile thinking. For example, we need to use Agile to continuously judge customer needs, just like the training mechanism of AI timely feedback. Agile methods emphasize rapid iteration during product development and gathering user feedback early on. This rapid iteration can make the team more acutely aware of potential ethical issues and make adjustments at an early stage. In the development and application of AI, especially in areas involving sensitive data or potential moral hazards, rapid iteration helps to detect and resolve possible ethical issues as early as possible. In a sense, AI and agility help each other. But the agile method itself does not ensure the ethics of AI, it is only a management and development method.
+
+
+<!--chapter:end:index.Rmd-->
+
+
+
+# About Us
+
+Introducing our exceptional team, a diverse and talented group of individuals, each with their own unique strengths and passions:
+
+## Grace {-}
+I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
+
+## Vivi {-}
+Experienced in crisis intervention and corporate cannabis. Combines passion for data analytics with industry insights as an MBAn student at UM Ross. Enjoys cooking and knitting for their 4 pets – two dogs and two cats.
+
+## Yibo {-}
+Hi, I am Yibo
+I am an accomplished international student from China who graduated in 2020 from the University of Connecticut, holding a dual major in Digital Marketing and Economics. Currently, I am pursuing my graduate studies in the Business Analysis Program at Umich Ross Business School.
+
+
+## Xinyan {-}
+I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
+
+## Drew {-}
+Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
+
+## As a Team {-}
+Formed as a team for the class, MBAN 501: Software Teams and Project Management, we found ourselves sharing the same interest in the human processes that live behind the standard deliverables and tools used in business.
+
+
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Overview of AI Biases
+
+Insert intro here
+
+## Types of Biases
+
+Insert types
+
+## Source of Biases
+
+Insert sources
+
+## Examples
+
+Insert examples
+
+<!--chapter:end:02-cross-refs.Rmd-->
+
 # Overview of AI and LLM
 
 ## Artificial Intelligence
@@ -92,3 +174,41 @@ The training process can be divided into two main steps: pretraining and fine-tu
 During the pretraining phase, the model learns on a vast and diverse dataset. This dataset usually encompasses billions of vocabulary items from various sources such as websites, books, and articles. In the pretraining phase, the model learns general language patterns and representations from a large amount of data. This allows it to understand relationships between different words, context, and common grammar structures. After the pretraining phase, the fine-tuning phase occurs, which involves training the model on a more specific and smaller dataset related to the target task or domain. Through training on these specific data, the model can better adapt to the requirements of the particular task and further enhance its understanding capabilities.
 
 The datasets used for pretraining and fine-tuning are different. The pretraining dataset is usually broad and generalized, while the fine-tuning dataset is more focused on the specific task the model is meant to solve. This two-step training strategy allows the model to acquire general language capabilities from extensive general data and then enhance its performance through fine-tuning on task-specific data.
+
+<!--chapter:end:03-parts.Rmd-->
+
+# Case Studies
+
+## Discrimination and Unfair Treatment
+
+
+
+## Inherent Biases
+
+
+
+<!--chapter:end:04-citations.Rmd-->
+
+# Mitigating Biases in AI Systems
+
+## Companies
+
+
+
+## Individuals
+
+
+<!--chapter:end:05-blocks.Rmd-->
+
+# Resources for Further Learning
+
+## Ongoing Research
+
+<!--chapter:end:06-share.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:07-references.Rmd-->
+
