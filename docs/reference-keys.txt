@@ -1,4 +1,4 @@
-introduction
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
 about-us
 overview-of-ai-biases
 types-of-biases
@@ -16,8 +16,14 @@ case-studies
 discrimination-and-unfair-treatment
 inherent-biases
 mitigating-biases-in-ai-systems
-companies
-individuals
 resources-for-further-learning
 ongoing-research
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
+ibm
+google-responsible-ai-practices
+openai
+what-do-we-do-about-the-biases-in-ai
+company-policies-and-guidelines
+what-do-we-do-about-the-biases-in-ai-as-a-user
+what-do-we-do-about-bias-as-a-user
+what-do-we-do-about-bias-as-a-user-or-business-leader
+
