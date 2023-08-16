@@ -23,9 +23,7 @@
 <meta name="author" content="Drew, Grace, Vivi, Xinyan, Yibo" />
 
 
-
-<meta name="date" content="2023-08-15" />
-
+<meta name="date" content="2023-08-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -116,10 +114,15 @@
 <li class="chapter" data-level="5.1" data-path="case-studies.html"><a href="case-studies.html#discrimination-and-unfair-treatment"><i class="fa fa-check"></i><b>5.1</b> Discrimination and Unfair Treatment</a></li>
 <li class="chapter" data-level="5.2" data-path="case-studies.html"><a href="case-studies.html#inherent-biases"><i class="fa fa-check"></i><b>5.2</b> Inherent Biases</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html"><i class="fa fa-check"></i><b>6</b> Mitigating Biases in AI Systems</a>
+<li class="chapter" data-level="6" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html"><i class="fa fa-check"></i><b>6</b> Mitigating Biases in AI systems</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#companies"><i class="fa fa-check"></i><b>6.1</b> Companies</a></li>
-<li class="chapter" data-level="6.2" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#individuals"><i class="fa fa-check"></i><b>6.2</b> Individuals</a></li>
+<li class="chapter" data-level="6.1" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#company-policies-and-guidelines"><i class="fa fa-check"></i><b>6.1</b> Company Policies and Guidelines</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#ibm"><i class="fa fa-check"></i><b>6.1.1</b> IBM</a></li>
+<li class="chapter" data-level="6.1.2" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#google-responsible-ai-practices"><i class="fa fa-check"></i><b>6.1.2</b> Google Responsible AI Practices</a></li>
+<li class="chapter" data-level="6.1.3" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#openai"><i class="fa fa-check"></i><b>6.1.3</b> OpenAI</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="mitigating-biases-in-ai-systems.html"><a href="mitigating-biases-in-ai-systems.html#what-do-we-do-about-bias-as-a-user-or-business-leader"><i class="fa fa-check"></i><b>6.2</b> What Do We Do About Bias as a User or Business Leader?</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="resources-for-further-learning.html"><a href="resources-for-further-learning.html"><i class="fa fa-check"></i><b>7</b> Resources for Further Learning</a>
 <ul>
@@ -165,7 +168,15 @@ ChatGPT presents the most visible example of automation bias today. Educators at
 <h2>Overfitting and Underfitting<a href="overview-of-ai-biases.html#overfitting-and-underfitting" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Imagine you are trying to research a certain topic with the goal in mind that you can be trusted to give reliable information regarding that topic. In order to do so, you try to find as many sources as possible. The idea is that you would reduce the amount of key missing information. However, now you have so much data that there’s noise and contradictions. The only way to make a conclusion that fits all of the data is an overly convoluted one. This is one of the fundamental issues happening with machine learning models right now.
 Underfitting is in the former instance when a model isn’t able to capture the trend in testing data despite performing well in the training data. Typically this occurs from insufficient amounts of training data which results in the model producing simplified rules for a more complicated problem. This is where AI can often make biased decisions. Using overly simple patterns, it can generalize these to entire categories of data. The upside is that its variance in accuracy depending on the testing data remains fairly low. This is not to say it’s somehow accurate, just that it’s equally inaccurate across many different testing environments.
-Conversely, overfitting is when there is more than sufficient data but the noise that comes from it allows the model to produce far too complicated results that forces the data to fit. Applying different testing environments creates high variance in inaccuracy even though the model is trying to consider every possible manner of bias. This is the rub, high bias but for low variance, or low bias at the cost of high variance. One of the most often used ways to detect overfitting is called k-fold cross-validation. The idea is to randomly sort the data into k subsections, saving one section to be the testing set and the others will become the training data. Iterate this k times, taking the cumulative sum of the errors to see how well the model performs.</p>
+Conversely, overfitting is when there is more than sufficient data but the noise that comes from it allows the model to produce far too complicated results that forces the data to fit. Applying different testing environments creates high variance in inaccuracy even though the model is trying to consider every possible manner of bias. This is the rub, high bias but for low variance, or low bias at the cost of high variance.</p>
+<div class="float">
+<img src="overfitting%20vs%20underfitting.png" alt="This model provides a great visualization for the pros and cons of underfitting and overfitting and how typically it is beneficial to find a balance between the two." />
+<div class="figcaption">This model provides a great visualization for the pros and cons of underfitting and overfitting and how typically it is beneficial to find a balance between the two.</div>
+</div>
+<p>One of the most often used ways to detect overfitting is called k-fold cross-validation. The idea is to randomly sort the data into k subsections, saving one section to be the testing set and the others will become the training data. Iterate this k times, taking the cumulative sum of the errors to see how well the model performs.</p>
+<p><img src="k-fold%20cross%20validation.png" alt="This is an example of how k-fold cross validation works when k is 5." />
+As it must be apparent at this point, neither underfitting nor overfitting is strictly better than the other. More importantly, in tandem they reveal an unfortunate reality of any AI model: it is impossible to create a system with zero bias and zero variance in accuracy. The best we can do is find the optimized minimum of the two.</p>
+<p><img src="variance%20to%20bias%20tradeoff.png" /></p>
 </div>
 <div id="reporting-bias" class="section level2 unnumbered hasAnchor">
 <h2>Reporting bias<a href="overview-of-ai-biases.html#reporting-bias" class="anchor-section" aria-label="Anchor link to header"></a></h2>
