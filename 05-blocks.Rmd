@@ -3,6 +3,8 @@
 ##IBM
 The AI Fairness 360 (AIF360) toolkit provided by IBM aims to promote a deeper understanding of fairness metrics and mitigation techniques, to enable an open common platform for fairness researchers and industry practitioners to share and benchmark their algorithms, and to help facilitate the transition of fairness research algorithms to use in an industrial setting. 
 
+The AI Fairness 360 (AIF360) toolkit provided by IBM aims to promot a deeper understanding of fairness metrics and mitigation techniques, to enable an open common platform for fairness researchers and industry practitioners to share and benchmark their algorithms, and to help facilitate the transition of fairness research algorithms to use in an industrial setting. 
+
 AIF360 uses techniques from 8 published papers on the border algorithm fairness community. It includes over 71 bias detection metrics, 9 bias mitigation algorithms, and a unique extensible metric explanation facility to help consumers of the system to understand the meaning of bias detection results
 
 **Definitions Used in AIF360**
