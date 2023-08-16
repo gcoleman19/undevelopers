@@ -1,5 +1,16 @@
 introduction
 about-us
+<<<<<<< HEAD
+intro-1
+about-us-1
+grace
+vivi
+yibo
+xinyan
+drew
+as-a-team
+introduction-1
+=======
 overview-of-ai-biases
 types-of-biases
 source-of-biases
@@ -20,3 +31,5 @@ companies
 individuals
 resources-for-further-learning
 ongoing-research
+>>>>>>> 9678eaf866cb98a6dabba618a76b89d58ed05f65
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
