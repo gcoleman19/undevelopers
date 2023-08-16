@@ -18,3 +18,7 @@ inherent-biases
 mitigating-biases-in-ai-systems
 resources-for-further-learning
 ongoing-research
+ibm
+google-responsible-ai-practices
+openai
+what-do-we-do-about-the-biases-in-ai
