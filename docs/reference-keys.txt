@@ -22,3 +22,7 @@ ibm
 google-responsible-ai-practices
 openai
 what-do-we-do-about-the-biases-in-ai
+company-policies-and-guidelines
+what-do-we-do-about-the-biases-in-ai-as-a-user
+what-do-we-do-about-bias-as-a-user
+what-do-we-do-about-bias-as-a-user-or-business-leader
