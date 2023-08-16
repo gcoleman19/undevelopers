@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 7 Resources for Further Learning | Bias within the AI Environment</title>
-  <meta name="description" content="Chapter 7 Resources for Further Learning | Bias within the AI Environment" />
+  <title>Chapter 6 Mitigating Biases in AI Systems | Bias within the AI Environment</title>
+  <meta name="description" content="Chapter 6 Mitigating Biases in AI Systems | Bias within the AI Environment" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 7 Resources for Further Learning | Bias within the AI Environment" />
+  <meta property="og:title" content="Chapter 6 Mitigating Biases in AI Systems | Bias within the AI Environment" />
   <meta property="og:type" content="book" />
   
   
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 Resources for Further Learning | Bias within the AI Environment" />
+  <meta name="twitter:title" content="Chapter 6 Mitigating Biases in AI Systems | Bias within the AI Environment" />
   
   
   
@@ -23,19 +23,15 @@
 <meta name="author" content="Drew, Grace, Vivi, Xinyan, Yibo" />
 
 
-<<<<<<< HEAD
-<meta name="date" content="2023-08-08" />
-=======
 <meta name="date" content="2023-08-10" />
->>>>>>> af9772172ef5d1a824bbc6ef06077713828e4f16
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="mitigating-biases-in-ai-systems.html"/>
-<link rel="next" href="references.html"/>
+<link rel="prev" href="case-studies.html"/>
+<link rel="next" href="resources-for-further-learning.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -80,7 +76,7 @@
 <li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like https://bookdown.org/yihui/bookdown</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="about-us.html"><a href="about-us.html"><i class="fa fa-check"></i><b>2</b> About Us</a>
 <ul>
 <li class="chapter" data-level="" data-path="about-us.html"><a href="about-us.html#grace"><i class="fa fa-check"></i>Grace</a></li>
@@ -145,20 +141,72 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="resources-for-further-learning" class="section level1 hasAnchor" number="7">
-<h1><span class="header-section-number">Chapter 7</span> Resources for Further Learning<a href="resources-for-further-learning.html#resources-for-further-learning" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="ongoing-research" class="section level2 hasAnchor" number="7.1">
-<h2><span class="header-section-number">7.1</span> Ongoing Research<a href="resources-for-further-learning.html#ongoing-research" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="mitigating-biases-in-ai-systems" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> Mitigating Biases in AI Systems<a href="mitigating-biases-in-ai-systems.html#mitigating-biases-in-ai-systems" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="companies" class="section level2 hasAnchor" number="6.1">
+  <h2><span class="header-section-number">6.1</span> Companies<a href="mitigating-biases-in-ai-systems.html#companies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+  <!-- Content about IBM -->
+  <h3>IBM</h3>
+  <p>
+    IBM's Fairness 360 toolkit aims to promote a deeper understanding of fairness metrics and mitigation techniques. The toolkit provides a common platform for fairness researchers and industry practitioners to share and benchmark their algorithms. It includes over 71 bias detection metrics, 9 bias mitigation algorithms, and an extensible metric explanation facility.
+  </p>
+  <p>
+    AIF360 uses techniques from 8 published papers on the border algorithm fairness community. It offers various fairness measures, including difference of means, disparate impact, and odds ratio. Some open-source libraries like FairML, FairTest, Aequitas, and Themis-ML provide functionalities for learning fair AI models and auditing predictive models for bias analysis.
+  </p>
+
+  <!-- Content about Google -->
+  <h3>Google Responsible AI Practices</h3>
+  <p>
+    Google emphasizes fairness in AI systems and recognizes AI's role in providing new experiences and abilities globally. AI's impact extends beyond recommendations to critical tasks like medical predictions and decision-making. Unfairness in AI systems can have widespread impacts, making fairness crucial. Challenges include biases in real-world data and the difficulty of building universally fair systems due to diverse situations.
+  </p>
+  <p>
+    Google also addresses interpretability, privacy, and safety in AI. Interpretability is vital for understanding and trusting AI systems, while privacy concerns arise when dealing with sensitive data. Google actively develops techniques to safeguard privacy in AI systems. Regarding safety, Google emphasizes proactive safety measures and adapting to emerging attack methods.
+  </p>
+
+  <!-- Content about OpenAI -->
+  <h3>OpenAI</h3>
+  <p>
+    OpenAI's behavior in models like ChatGPT is shaped through a two-step process: pre-training and fine-tuning. In the pre-training phase, the model predicts words from Internet text to learn grammar, facts, and reasoning abilities. The fine-tuning phase narrows down system behavior using human reviewers and guidelines. OpenAI aims to align models with human values and improve their behavior.
+  </p>
+  <p>
+    OpenAI addresses biases by involving reviewers and sharing guidelines. They recognize that biases in AI are bugs, not features. OpenAI shares insights, is accountable for sound policies, and continually improves the models. They also emphasize transparency, accountability, and collaboration with the tech community to achieve understandable and controllable fine-tuning.
+  </p>
 
 </div>
+
+<div id="individuals" class="section level2 hasAnchor" number="6.2">
+  <h2><span class="header-section-number">6.2</span> Individuals<a href="mitigating-biases-in-ai-systems.html#individuals" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+  
+  <!-- START_HIDDEN_CONTENT -->
+  <!-- Content about Individuals -->
+  <h3>As individuals: Responsible Prompting/building as a Mitigation Technique</h3>
+  <p>
+    Learn Prompting is a technique that can be used effectively to mitigate biases in AI systems. It involves crafting prompts that encourage AI systems to produce unbiased and fair responses.
+  </p>
+
+  <h3>HBR: What Do We Do About the Biases in AI?</h3>
+  <p>
+    This article discusses the challenges and strategies to address biases in AI systems. It emphasizes the need for awareness and reduction of biases in AI deployment.
+  </p>
+
+  <h3>Human Biases and AI</h3>
+  <p>
+    It's crucial to be aware of biases and their impact on AI systems. Biases in AI deployment can lead to significant risks. There's an urgent need for reducing biases and ensuring fairness.
+  </p>
+  <!-- ... (rest of the content) ... -->
+  <!-- END_HIDDEN_CONTENT -->
+
+</div>
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="mitigating-biases-in-ai-systems.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="case-studies.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="resources-for-further-learning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -189,7 +237,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/06-share.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/05-blocks.Rmd",
 "text": "Edit"
 },
 "history": {

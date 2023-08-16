@@ -1,15 +1,12 @@
 # Overview of AI Biases 
 
-Insert intro here
+What really is AI bias? In short, it is when specific components within a dataset are allowed to be overrepresented or weighted too highly. This, in turn, forces other components to become underrepresented and underweighted. Consequently, accuracy can get affected, results can be misshapen, which allows prejudices to occur [1]. At this point in time, most companies and organizations are beginning to adopt artificial intelligence as part of their overall business intelligence strategy. As far as the how and the why, it’s difficult to parse an agreed upon set of bias types (if the magnitude of the set even closely resembles that of the set of cognitive biases, one can expect over 100). This is mostly because different people use different terms for the same thing. On top of that, bias can find its way into every part of the AI process, namely from the data itself, from the algorithm, or from the people meant to interpret the result. That being said, here are a collection of the most prevalent types of bias:
 
-## Types of Biases {-}
+## Systemic bias {-}
 
-Insert types
 
-## Source of Biases {-}
+Systemic bias looks as far outward as possible and examines the ways in which entire social structures and groups are overlooked in favor of others. As the name indicates, this kind of discrimination comes as a result of well established systematic processes that dominate our lives. Most importantly, these processes are often designed in such a way that makes them invisible to most people. Machine learning algorithms that produce AI models are inherently confined to build and interpret from the data that they are given. They primarily function on pattern recognition, which is unfortunately the main heuristic that stereotyping utilizes. Thus when feeding them data that is representative of the systems that we all belong to, they inherit the same invisible discriminations [3]. 
+The data that these algorithms operate on is called training data. The reality is that this data is not solely restricted to what a single set of real world measurements can offer us. There are data experts that collect and synthesize information from many different sources into a unified set that can add new categories of measurement or target specific perspectives that might have gone unnoticed. Not to mention the possibility of creating entirely synthetic data from artificial generators, which similarly allows engineers to filter out the unwanted behavior that might come from model interpretation of the data [3].
+A good example of this systematic behavior within AI came out several years ago, when a group of researchers at Carnegie Mellon and the International Computer Science Institute investigated how Google’s Ad Settings chose to target specific ads towards certain people [4]. The results were unfavorable to say the least. Instances of discrimination occurred across the board from Google’s algorithm. A notable case was when the researchers changed the gender on the Ad Settings to female. What they noticed was that ads related to higher paying jobs were reduced in the female setting as opposed to the male. In this case, the model was perpetuating the discriminatory behavior of standard advertisers when they unknowingly reinforce gender roles.
 
-Insert sources
 
-## Examples {-}
-
-Insert examples

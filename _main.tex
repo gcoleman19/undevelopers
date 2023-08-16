@@ -1,0 +1,213 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Bias within the AI Environment},
+  pdfauthor={Drew, Grace, Vivi, Xinyan, Yibo},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Bias within the AI Environment}
+\author{Drew, Grace, Vivi, Xinyan, Yibo}
+\date{2023-08-10}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+AI has increasingly become a topic of conversation, as it is a new technology with infinite possibilities. Since AI takes information from all over the internet, it is important to think about the biases that can be found within the system. For this project, we start by differentiating the difference between inaccuracy and biases. Specifically, we discuss AI/ML bias through the lens of machine model training biases - both unintentional and unintentional biases - also called inherent biases, as well as data collection biases, and the impact of these biases in the real world.
+
+Through research, we hope to create a comprehensive understanding of bias within the AI space and how best to mitigate it as a user.
+
+The project intends to create awareness about AI bias and help our Ross peers navigate the complex but crucial ethical aspect of AI. At the same time, a significant portion of the guide is dedicated to `responsible prompting', a practical guideline on crafting prompts mindfully and vigilantly spotting bias in AI responses. The goal of our project is to make AI interactions more fair, ethical, and responsible by empowering users to recognize and navigate AI biases.
+
+In addition, the development of AI is also inseparable from Agile thinking. For example, we need to use Agile to continuously judge customer needs, just like the training mechanism of AI timely feedback. Agile methods emphasize rapid iteration during product development and gathering user feedback early on. This rapid iteration can make the team more acutely aware of potential ethical issues and make adjustments at an early stage. In the development and application of AI, especially in areas involving sensitive data or potential moral hazards, rapid iteration helps to detect and resolve possible ethical issues as early as possible. In a sense, AI and agility help each other. But the agile method itself does not ensure the ethics of AI, it is only a management and development method.
+
+\hypertarget{about-us}{%
+\chapter{About Us}\label{about-us}}
+
+Introducing our exceptional team, a diverse and talented group of individuals, each with their own unique strengths and passions:
+
+\hypertarget{grace}{%
+\section*{Grace}\label{grace}}
+\addcontentsline{toc}{section}{Grace}
+
+I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
+
+\hypertarget{vivi}{%
+\section*{Vivi}\label{vivi}}
+\addcontentsline{toc}{section}{Vivi}
+
+Experienced in crisis intervention and corporate cannabis. Combines passion for data analytics with industry insights as an MBAn student at UM Ross. Enjoys cooking and knitting for their 4 pets -- two dogs and two cats.
+
+\hypertarget{yibo}{%
+\section*{Yibo}\label{yibo}}
+\addcontentsline{toc}{section}{Yibo}
+
+Hi, I am Yibo
+I am an accomplished international student from China who graduated in 2020 from the University of Connecticut, holding a dual major in Digital Marketing and Economics. Currently, I am pursuing my graduate studies in the Business Analysis Program at Umich Ross Business School.
+
+\hypertarget{xinyan}{%
+\section*{Xinyan}\label{xinyan}}
+\addcontentsline{toc}{section}{Xinyan}
+
+I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
+
+\hypertarget{drew}{%
+\section*{Drew}\label{drew}}
+\addcontentsline{toc}{section}{Drew}
+
+Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
+
+\hypertarget{as-a-team}{%
+\section*{As a Team}\label{as-a-team}}
+\addcontentsline{toc}{section}{As a Team}
+
+Formed as a team for the class, MBAN 501: Software Teams and Project Management, we found ourselves sharing the same interest in the human processes that live behind the standard deliverables and tools used in business.
+
+\hypertarget{overview-of-ai-biases}{%
+\chapter{Overview of AI Biases}\label{overview-of-ai-biases}}
+
+Insert intro here
+
+\hypertarget{types-of-biases}{%
+\section{Types of Biases}\label{types-of-biases}}
+
+Insert types
+
+\hypertarget{source-of-biases}{%
+\section{Source of Biases}\label{source-of-biases}}
+
+Insert sources
+
+\hypertarget{examples}{%
+\section{Examples}\label{examples}}
+
+Insert examples
+
+\hypertarget{overview-of-ai-and-llm}{%
+\chapter{Overview of AI and LLM}\label{overview-of-ai-and-llm}}
+
+\hypertarget{artificial-intelligence}{%
+\section{Artificial Intelligence}\label{artificial-intelligence}}
+
+\hypertarget{narrow-ai}{%
+\subsection{Narrow AI}\label{narrow-ai}}
+
+\hypertarget{general-ai}{%
+\subsection{General AI}\label{general-ai}}
+
+\hypertarget{how-it-works}{%
+\subsection{How It Works}\label{how-it-works}}
+
+\hypertarget{large-language-models}{%
+\section{Large Language Models}\label{large-language-models}}
+
+\hypertarget{how-it-works-1}{%
+\subsection{How It Works}\label{how-it-works-1}}
+
+\hypertarget{how-it-is-trained}{%
+\subsection{How It Is Trained}\label{how-it-is-trained}}
+
+\hypertarget{case-studies}{%
+\chapter{Case Studies}\label{case-studies}}
+
+\hypertarget{discrimination-and-unfair-treatment}{%
+\section{Discrimination and Unfair Treatment}\label{discrimination-and-unfair-treatment}}
+
+\hypertarget{inherent-biases}{%
+\section{Inherent Biases}\label{inherent-biases}}
+
+\hypertarget{mitigating-biases-in-ai-systems}{%
+\chapter{Mitigating Biases in AI Systems}\label{mitigating-biases-in-ai-systems}}
+
+\hypertarget{companies}{%
+\section{Companies}\label{companies}}
+
+\hypertarget{individuals}{%
+\section{Individuals}\label{individuals}}
+
+\hypertarget{resources-for-further-learning}{%
+\chapter{Resources for Further Learning}\label{resources-for-further-learning}}
+
+\hypertarget{ongoing-research}{%
+\section{Ongoing Research}\label{ongoing-research}}
+
+\end{document}
