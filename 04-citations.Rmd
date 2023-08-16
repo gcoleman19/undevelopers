@@ -1,9 +1,61 @@
-# Case Studies
+#**Case Studies
 
-## Discrimination and Unfair Treatment
+In our modern world where artificial intelligence (AI) is entwined with daily life, the discovery of biases within algorithms has unveiled a troubling reflection of societal prejudices. These biases, both unintentional and intentional, reverberate through sectors like hiring, lending, and criminal justice, influencing lives in profound ways. However, alongside these unintentional biases, there exists a complex landscape of intentional biases applied with the goal of promoting fairness, addressing historical injustices, or achieving specific societal objectives.
+
+Two groundbreaking studies cast a humanizing light on this technological dilemma. [Gender Shades by Joy Buolamwini and Timnit Gebru](https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) explored the troubling racial and gender disparities in facial recognition, revealing how these technologies can unintentionally mirror and magnify existing inequalities. Meanwhile, [Man is to Computer Programmer as Woman is to Homemaker?](https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf) Debiasing Word Embeddings by Bolukbasi et al. delved into gender biases within language algorithms, unearthing the subtle ways in which technology can perpetuate stereotypes. Both studies serve as poignant reminders that behind every algorithm, there are human lives and societal norms that deserve careful consideration and compassion.
+
+## **Biases in hiring, lending, criminal justice:**
 
 
+**[Gender Shades" by Joy Buolamwini and Timnit Gebru:](https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) **
 
-## Inherent Biases
+Buolamwini and Gebru evaluated commercial facial recognition systems by testing them on a more diverse dataset that included a wider representation of gender, skin color, and ethnic backgrounds. They discovered significant disparities in accuracy across different demographic groups, with the algorithms performing poorly on darker-skinned and female faces.
 
+![](https://ars.electronica.art/outofthebox/files/2019/08/GenderShades_gs04.jpg)
+
+***Key Takeaway:***
+
+**Exposing Disparities:** Their method has shed light on real-world implications of bias within facial recognition technologies, bringing attention to an issue that has substantial societal impact.
+
+**Discrimination:** These biases can lead to systematic discrimination, where certain groups may be unfairly targeted or misclassified by automated systems used in law enforcement, hiring, or other critical domains.
+
+**Loss of Trust:** Awareness of these biases can erode trust in AI systems and technology more broadly, especially among those most affected by the inaccuracies.
+
+![](https://globalnews.ca/wp-content/uploads/2018/02/gs03.png)
+The work by Buolamwini and Gebru is pioneering and has had a profound impact on how the industry approaches bias in AI. Their methods are robust and have led to broader conversations about ethical AI. While technological solutions are necessary, a systemic approach involving diverse stakeholders is essential to truly eliminate biases.
+
+**[Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings" by Bolukbasi et al.:](https://proceedings.neurips.cc/paper_files/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)**
+
+![](https://2.bp.blogspot.com/-RUpKuflR6qQ/XLwEXB16ozI/AAAAAAAAr4Q/Jo3_0oqOZfYE6rygFvl8CA0MOo5lkS43QCLcBGAs/s1600/Debias1.png)
+
+The article by Tolga Bolukbasi and others describes a process to reduce gender bias by identifying and modifying the geometric relationships within word embeddings. The authors first identify a gender subspace by looking at pairs of words that reflect gender, such as ("he", "she"), ("man", "woman"), etc. They then project word vectors onto this subspace to measure their gender bias and adjust them to reduce this bias, while preserving other semantic relationships.
+
+***Key Takeaway:***
+
+**Effectiveness:** The methods present a clever way to reduce gender bias in word embeddings, and they have been influential in guiding further research in the field.
+
+**Limitations:** While the method addresses gender bias for certain word pairs, it may not completely remove all forms of gender bias, especially more subtle or complex biases.
+
+**Ethical Considerations:**Deciding what constitutes a bias and how to address it can be controversial. This method mainly addresses one specific type of bias, and the decision-making process might need to involve broader social input.
+
+The methodology in this paper is an essential step in addressing biases in AI, but it also highlights the complexity of the problem. A multidisciplinary approach, involving technological innovation, human expertise, and societal input, might be the best path forward to build AI systems that are both powerful and aligned with human values.
+
+## **Inherent Biases - the complex trade-offs in designing fair machine learning models.**
+
+
+*Intentional biases in machine learning models are indeed sometimes applied with the goal of promoting fairness, addressing historical biases, or achieving specific societal objectives. This is often referred to as "fairness through awareness" or "algorithmic affirmative action." Below are some examples of intentional biases and related case studies:*
+
+
+**Equalized Odds in Hiring Practices:** Some hiring algorithms might intentionally favor candidates from underrepresented groups to ensure that the selection process provides equal opportunity to all applicants [(Fazelpour & Lipton, 2020)](https://www.researchgate.net/publication/339105052_Algorithmic_Fairness_from_a_Non -ideal_Perspective).
+
+
+**Bias Correction in Credit Scoring:**  Intentional adjustment in removing sensitive attributes, such as gender identifiers may aim to provide fair access to credit opportunities by counterbalancing biases against specific demographic groups [(Liang et al., 2023)](https://www.frontiersin.org/articles/10.3389/fdata.2022.1049565/full)
+
+![](https://www.frontiersin.org/files/MyHome%20Article%20Library/1049565/1049565_Thumb_400.jpg)
+
+
+**Intentional Gender Bias in Gender Classification Models:** Many researchers make intentional effort to compile a dataset of facial images representing different genders, ethnicities, and other demographic factors, ensuring a diverse sample that includes non-binary and transgender individuals. Thus, they further encourage the industry to evolve in a direction that recognizes the complexity and diversity of human gender identity [(Scheuerman et al., 2019)](https://doi.org/10.1145/3359246)
+
+
+![](https://media.cnn.com/api/v1/images/stellar/prod/191118130655-ai-gender-identification-morgan.jpg?q=w_3000,h_1688,x_0,y_0,c_fill)
 
