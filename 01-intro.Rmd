@@ -5,6 +5,8 @@
 Introducing our exceptional team, a diverse and talented group of individuals, each with their own unique strengths and passions:
 
 ## Grace {-}
+![](grace.jpeg){width="150"}
+
 I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
 
 ## Vivi {-}
