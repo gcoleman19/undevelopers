@@ -27,3 +27,9 @@ what-do-we-do-about-the-biases-in-ai-as-a-user
 what-do-we-do-about-bias-as-a-user
 what-do-we-do-about-bias-as-a-user-or-business-leader
 
+biases-in-hiring-lending-criminal-justice
+inherent-biases---the-complex-trade-offs-in-designing-fair-machine-learning-models.
+more-research-into-ai-bias
+transparency-in-ai-bias
+fairness-in-ai-bias
+importance-of-ongoing-studies
