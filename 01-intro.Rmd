@@ -22,6 +22,8 @@ I arrived in the United States almost two months ago. Before this, I had been li
 Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
 
 ## As a Team {-}
+ ![](TEAM.png){width="210"}
+
 Formed as a team for the class, MBAN 501: Software Teams and Project Management, we found ourselves sharing the same interest in the human processes that live behind the standard deliverables and tools used in business.
 
 
