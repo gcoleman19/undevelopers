@@ -10,10 +10,12 @@ Introducing our exceptional team, a diverse and talented group of individuals, e
 I am a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at the University of Michigan School of Information, focusing on Information Analysis. I started a mental health club at the university called IfYou'reReadingThis. My interests include sports, fashion, and needlepoint.
 
 ## Vivi {-}
+ ![](vivi.png){width="150"}
+
 Experienced in crisis intervention and corporate cannabis. Combines passion for data analytics with industry insights as an MBAn student at UM Ross. Enjoys cooking and knitting for their 4 pets – two dogs and two cats.
 
 ## Yibo {-}
- ![](yibo.png){width="210"}
+![](yibo.png){width="150"}
 
 Hi, I am Yibo I am an accomplished international student from China who graduated in 2020 from the University of Connecticut, holding a dual major in Digital Marketing and Economics. Currently, I am pursuing my graduate studies in the Business Analysis Program at Umich Ross Business School.
 
