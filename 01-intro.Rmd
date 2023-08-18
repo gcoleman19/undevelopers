@@ -23,6 +23,8 @@ Hi, I am Yibo I am an accomplished international student from China who graduate
 I arrived in the United States almost two months ago. Before this, I had been living in the beautiful southern city of Hangzhou, China, for 23 years. I have a Samoyed dog and a long-legged Napoleon cat. My hobbies involve photography and traveling, and I love exploring new things.
 
 ## Drew {-}
+![](Headshot.jpg){width="150"}
+
 Hello! I am currently a Master of Business Analytics Student at the Ross School of Business. I did my undergraduate degree at University of Michigan with majors in Mathematics and English and a minor in Physics. I was a writer and editor at the student publication The Michigan Daily. I love music, film, and running.
 
 ## As a Team {-}
